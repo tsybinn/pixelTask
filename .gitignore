@@ -1,0 +1,5 @@
+/.idea/
+/docker/mysql/
+/var/mail/
+/var/www/vendor/
+/var/www/composer.lock
