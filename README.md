@@ -1,8 +1,10 @@
 <h3>!!!! Визуализация работы тестового задания будет доступна http://localhost/task/ </h3>
+<hr>
 <h3> Окружение для запуска битрикс 1С-Битрикс: Управление сайтом</h3>
-
+nginx-php-fpm-mysql-bitrix
 <hr>
 <h5>Как запустить:</h5>
+в корне проекта
 
 - `docker-compose build && docker-compose up -d`
 
@@ -15,6 +17,8 @@
     composer install`
 <hr>
 <b>MYSQL:<br></b> dump базы:
+
+в корне проекта
 
 - `cat docker/build/mysql/px.sql | docker exec -i mysql /usr/bin/mysql -u bitrix --password=password bitrix`
 
